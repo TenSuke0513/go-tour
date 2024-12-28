@@ -14,14 +14,14 @@ main パッケージには必ず1つの main() 関数が必要。
 
 import (
 	"fmt"
-	"math/rand"
 )
 
 /*
-パッケージのインポート
+goには関数名とか変数名(識別子っていうらしい)の頭が大文字か小文字でスコープが変わる。
 
 */
 
 func main() {
-	fmt.Println("my favorite number is", rand.Intn(10))
+	fmt.Println("テストプリント")
+	testPrint()
 }
