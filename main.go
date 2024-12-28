@@ -24,4 +24,8 @@ goには関数名とか変数名(識別子っていうらしい)の頭が大文�
 func main() {
 	fmt.Println("テストプリント")
 	testPrint()
+
+	fmt.Println("hikihen")
+	a, b := swap("中田", "田中")
+	fmt.Println(a, b)
 }
