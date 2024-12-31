@@ -28,4 +28,23 @@ func main() {
 	fmt.Println("hikihen")
 	a, b := swap("中田", "田中")
 	fmt.Println(a, b)
+	x, y := split(10)
+	fmt.Println(x, y)
+
+	varvar()
+	loop()
+	mapkey()
+	fmt.Println(sqrt(5))
+	kata()
+	hen()
+	henhen()
+	pow()
+	nabe()
 }
+
+/*
+vscodeショートかっと関連
+
+
+調べるメモ
+*/
