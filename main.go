@@ -40,6 +40,10 @@ func main() {
 	henhen()
 	pow()
 	nabe()
+	ryoten()
+	rugbyman()
+	arry()
+	making()
 }
 
 /*
