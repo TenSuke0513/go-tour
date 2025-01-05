@@ -44,6 +44,8 @@ func main() {
 	rugbyman()
 	arry()
 	making()
+	makefor()
+	smk()
 }
 
 /*

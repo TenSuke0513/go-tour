@@ -42,3 +42,21 @@ func making() {
 	a := make([]int, 5)
 	fmt.Println(a)
 }
+
+type classmate struct {
+	fname string
+	lname string
+}
+
+var rugbybu = []classmate{
+	{fname: "ryosuke", lname: "sakamoto"},
+	{fname: "ryoma", lname: "huruich"},
+	{fname: "kunpei", lname: "oonishi"},
+	{fname: "masataka", lname: "yazawa"},
+}
+
+func makefor() {
+	for _, name := range rugbybu {
+		fmt.Println(name.fname)
+	}
+}
